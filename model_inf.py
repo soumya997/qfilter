@@ -6,7 +6,7 @@ import tensorflow as tf #pip install tensorflow
 
 model = tf.keras.models.load_model("/content/BLSTM.h5")
 binodfunc('https://drive.google.com/file/d/1yVcCs6QE2EAfbiq-vbWjn4BEGp89E1h7/view?usp=sharing')
-a_file = open("/content/gdrive/MyDrive/data_embed/data1.pkl", "rb") # path of the downloaded file
+a_file = open("/content/gdrive/MyDrive/data_embed/datak.pkl", "rb") # path of the downloaded file
 output = pickle. load(a_file)
 batch_size = 1
 
