@@ -1,12 +1,3 @@
 # Q-filter => question filtration for Quora using ML
 
-```python
-
-import flask
-app = flask.Flask('your_flask_env')
-
-@app.route('/', methods=['GET'])
-def register():
-    if flask.request.method == 'GET':
-        
-```
+https://colab.research.google.com/drive/1lBny-BbwP-VxLX8aF-pgLo5XLz0oB-Dk?usp=sharing
