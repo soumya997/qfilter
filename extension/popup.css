@@ -1,0 +1,46 @@
+body{
+    width: 8rem;
+}
+
+h3{
+    color: #666666;
+}
+
+#ques {
+    text-align: justify;
+    display: inline;
+}
+
+#insincere, #sincere{
+    display: none;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.icons{
+    width: 20px;
+    display: inline;
+    object-fit: contain;
+    margin-right: 7px;
+}
+
+.btn-light{
+    margin-bottom: 10px;
+    text-decoration: none;
+    font-weight: 600;
+    background-color: #EDEDED;
+    color: rgb(168, 39, 35);
+    padding: 7px 15px;
+    font-size: 15px;
+    border-radius: 9px;
+    border: none;
+    float: right;
+    transition: all 0.2s;
+}
+.btn-light:hover{
+    background-color: rgb(168, 39, 35);
+    color: #EDEDED;
+    box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.4);
+    -webkit-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.4);
+    -moz-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.4);
+}

@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+    "name": "Questions Insincerity",
+    "description": "demo description",
+    "version": "0.1",
+    "content_scripts":[
+        {
+            "matches":[
+                "https://www.quora.com/*"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ],
+    "browser_action": {
+        "default_icon": "icon.png",
+        "default_popup": "popup.html",
+        "default_title": "Insincerity"
+    }
+}
