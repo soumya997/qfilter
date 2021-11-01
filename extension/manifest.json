@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
-    "name": "Questions Insincerity",
-    "description": "demo description",
+    "name": "Q-filter",
+    "description": "Question filtration for Quora using ML",
     "version": "0.1",
     "content_scripts":[
         {

@@ -1,7 +1,7 @@
 // capture question
 let askQuestionButton = document.getElementsByClassName("puppeteer_test_add_question_button")[0];
 let questionText;
-
+console.log(askQuestionButton)
 askQuestionButton.onclick = () => setTimeout(() => {
     try{
         questionText = document.getElementsByClassName("puppeteer_test_selector_input")[0];
